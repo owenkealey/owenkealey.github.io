@@ -10,9 +10,9 @@ var bubbleOptions = {
   bubbles: [], //The array of bubbles
   hue: 100, //The hue
   hueRand: 20, //The hue variance
-  saturation: 72, //The saturation
-  saturationRand: 15, //The saturation variance
-  light: 65, //The lightness
+  saturation: 20, //The saturation
+  saturationRand: 10, //The saturation variance
+  light: 5, //The lightness
   lightRand: 10, //The lightness variance
   opacityFactor: 3, //What Math.random() opacity should be divided by
   minOpacity: 0.1, //The minimum opacity
