@@ -7,8 +7,8 @@ body {
   padding: 0;
   margin: 0;
   min-height: 100%;
-  background-color: #50afe4;
-  background-image: linear-gradient(to right, #36d1dc, #5b86e5);
+  background-color: lightgreen;
+  background-image: linear-gradient(to right, lightgreen, lightgreen);
   background-attachment: fixed;
 }
 html * {
