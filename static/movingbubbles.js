@@ -8,14 +8,14 @@ var bubbleOptions = {
   timer: -1, //The interval time
   tick: 100, //The tick speed
   bubbles: [], //The array of bubbles
-  hue: 188, //The hue
+  hue: 100, //The hue
   hueRand: 20, //The hue variance
-  saturation: 63, //The saturation
-  saturationRand: 10, //The saturation variance
-  light: 57, //The lightness
+  saturation: 50, //The saturation
+  saturationRand: 15, //The saturation variance
+  light: 66, //The lightness
   lightRand: 10, //The lightness variance
   opacityFactor: 3, //What Math.random() opacity should be divided by
-  minOpacity: 0.2, //The minimum opacity
+  minOpacity: 0.1, //The minimum opacity
   ratio: 45000, //The bubble:pixel ratio
   update: function(tick) {
     //Function to change the tick timer
