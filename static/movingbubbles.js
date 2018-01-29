@@ -10,7 +10,7 @@ var bubbleOptions = {
   bubbles: [], //The array of bubbles
   hue: 100, //The hue
   hueRand: 20, //The hue variance
-  saturation: 50, //The saturation
+  saturation: 63, //The saturation
   saturationRand: 15, //The saturation variance
   light: 66, //The lightness
   lightRand: 10, //The lightness variance
