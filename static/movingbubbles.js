@@ -4,7 +4,7 @@
  * An object that stores different settings for the bubbles
  */
 var bubbleOptions = {
-  maxBubbles: 300, //A bubble ceiling, for high resolution monitors
+  maxBubbles: 275, //A bubble ceiling, for high resolution monitors
   timer: -1, //The interval time
   tick: 100, //The tick speed
   bubbles: [], //The array of bubbles
@@ -12,9 +12,9 @@ var bubbleOptions = {
   hueRand: 20, //The hue variance
   saturation: 20, //The saturation
   saturationRand: 10, //The saturation variance
-  light: 45, //The lightness
+  light: 47, //The lightness
   lightRand: 7, //The lightness variance
-  opacityFactor: 3, //What Math.random() opacity should be divided by
+  opacityFactor: 2.5, //What Math.random() opacity should be divided by
   minOpacity: 0.1, //The minimum opacity
   ratio: 45000, //The bubble:pixel ratio
   update: function(tick) {
