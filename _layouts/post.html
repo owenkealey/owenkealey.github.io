@@ -1,6 +1,5 @@
----
-layout: default
----
+<!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -23,9 +22,10 @@ layout: default
     <ul class="menu-list">
       <br>
       <br>
-      <li><h1 class="title"><a href="/">Owen Kealey</a></h1></li>
+      <li><h1 class="title">Owen Kealey</h1></li>
       <br>
       <br>
+
       <li><a href="about.html">About</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="blog.html">Blog</a></li>
@@ -36,24 +36,26 @@ layout: default
 
     <div class="column is-four-fifths">
 
-  {% for post in site.posts %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
+      <section class="hero">
+        <div class="hero-body">
+  <br><br><br>
+            <h1 class="title"> {{ page.title }}</h1>
+            <h2 class="subtitle">
+              {{ page.description }} | {{ page.date | date: '%B %d, %Y' }}
 
-          <section class="hero">
-            <div class="hero-body">
-              <div class="container">
-                <h1 class="title"> {{ post.title }}</h1>
-                <h2 class="subtitle">
-                  {{ post.description }}
-                </h2>
-              </div>
+
+            </h2>
+            <div class="frame">
+              {{content}}
             </div>
-          </section>
-      </a>
-      </article>
-  {% endfor %}
+        </div>
+      </section>
 
-  </div>
+
+    </div>
+
+
+    </div>
 
 
     </div>
