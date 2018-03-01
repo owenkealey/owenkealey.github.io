@@ -1,14 +1,9 @@
-/*
- * CSS for the moving bubbles
- * Makes sure the bubble container appears behind the contents of the page
- * Gerard Godone-Maresca
- */
 html, body {
 	padding:0;
 	margin:0;
 	min-height:100%;
 	background-color:#50afe4;
-	background-image:linear-gradient(to bottom,#2c2ced,#1ccc39);
+	background-image:linear-gradient(to bottom,#57B7E0,#3C799D);
 	background-attachment:fixed;
 }
 html * { z-index: 1; position:relative; }
