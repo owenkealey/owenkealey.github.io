@@ -1,0 +1,8 @@
+html, body{
+    background: black;
+}
+.me{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
