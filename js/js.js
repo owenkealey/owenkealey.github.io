@@ -1,2 +1,2 @@
-$("#body").delay(2000).fadeIn(750, function(){
+$("#body").delay(1000).fadeIn(750, function(){
 });
