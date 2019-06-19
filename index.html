@@ -1,26 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122639658-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-122639658-1');
+      </script>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>OWEN</title>
-    <link rel="shortcut icon" href="static/favicon.ico">
-    <meta name="description" content="Owen Kealey">
-    <meta property="og:url" content="https://owenkealey.io">
-    <meta property="og:title" content="Owen Kealey">
-    <meta property="og:description" content="Owen Kealey">
-    <meta property="og:site_name" content="Owen Kealey">
-    <meta property="og:type" content="website">
-    <meta name="twitter:title" value="Owen Kealey">
-    <meta name="twitter:description" value="Owen Kealey">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:domain" value="https://owenkealey.io">
-    <link href='css/website.css?v=1550705995231' media='all' rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Owen Kealey</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
   </head>
-  <body onresize="resize()" style="display:none;" id="body">
-    <img src="../img/me.png" class="me">
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Owen Kealey</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <img style = "width: 450px;
+    margin-bottom: 75px;" class="img-fluid" src="img/me.png" alt="">
+        <div class="intro-text">
+          <span class="name">Owen Kealey</span>
+          <!-- <hr class="star-light"> -->
+          <span class="skills">St Peter's Prep High School Senior - Software Engineer and Business Owner</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/protonaio.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/makespp.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/attendance.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/gst.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/database.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/giveaway.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/extension.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/monitors.png" alt="">
+            </a>
+          </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+      <div class="container">
+        <h2 class="text-center">About</h2>
+        <hr class="star-light">
+        <div class="row">
+          <div class="col-lg-4">
+            <p><b>Academics:</b><br>Currently taking AP US History, AP Computer Science, Programming(Java) and Programming Honors(C++), Calculus Honors and Physics Honors<br><b>Work Experience:</b><br>I manage <a href="http://grandstreet.io" target="_blank" style="color:#cd9557">Grand Street Technologies</a> and the repair process of my school's 1200 Chromebooks.</p>
+          </div>
+          <div class="col-lg-4">
+            <p><b>Extracurriculars:</b><br>CEO of <a href="http://grandstreet.io" target="_blank" style="color:#cd9557">Grand Street Technologies</a>, Organizer and mentor of <a href="http://makespp.com" target="_blank" style="color:#cd9557">MakeSPP</a>, member of of my school's CSAP club.</p>
+          </div>
+          <div class="col-lg-4">
+            <p><b>For Fun...</b><br>I like exploring New York City, spontaneously creating small software projects I find interesting and attending hackathons.</p>
+          </div>
+          <div class="col-lg-8 mx-auto text-center">
+            <a href="resume.pdf" target="_blank" class="btn btn-lg btn-outline">
+              <i class="fa fa-download"></i>
+              Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center">
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col col-md-4">
+              <h3>Location</h3>
+              <p>Cranford, NJ 07016</p>
+            </div>
+            <div class="footer-col col-md-4">
+              <h3>Social Media</h3>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://github.com/owenkealey">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="mailto:owen@owenkealey.io">
+                    <i class="fa fa-fw fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://twitter.com/anhourbefore">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://www.instagram.com/owenkealey">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col col-md-4">
+              <h3>About me</h3>
+              <p>I am a high school software engineer and the founder of Grand Street Technologies. I attend St Peter's Prep High School in Jersey City, NJ.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              Copyright &copy; Owen Kealey 2018
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top d-lg-none">
+      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Proton AIO</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/protonaio.png" alt="">
+                  <p>Proton AIO is the chief software product of Grand Street Technologies that allows users to buy the latest limited edition items from Adidas, Supreme and Shopify sites. Proton AIO was written entirely by myself over the summer, and currently has over 450 users. It is written in Python with an HTML/CSS/JS frontend.
+                     Proton is complex software with a large complex codebase. See <a href="https://proton.grandstreet.io" target="_blank" style="color:#cd9557">Grand Street Technologies</a> for more info!</p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://shop.grandstreet.io/products/proton">Purchase Here!</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>MakeSPP</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/makespp.png" alt="">
+                  <p>MakeSPP is a hackathon that I along with a few of my friends setup and ran at my school on May 26 this past year. 
+                    I was in charge of signing people in, managing hardware and teaching the Intro to Python and Git workshop. MakeSPP
+                    was a great success and we had some great mentors, you can see the recap below.
+                  </p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://makespp.com">Recap</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>SPP Attendance System</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/attendance.png" alt="">
+                  <p>Currently, my school issues student ids on smart cards. I am developing a system that will replace the old attendance system of students yelling "here!" with 4 computers with smartcard readers that students will scan their ids with on enterance to an event. Ths system pulls student data from a trove of Google Sheets and writes the scan time, student name and email to another Sheet that the program shares with the proper administrators. </p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://github.com/owenkealey/SPP-Attendance">Source Code</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Grand Street Technologies</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/gst.png" alt="">
+                  <p>Grand Street Technologies is an LLC mainly dealing in selling proprietary software aimed at bridging the gap between the average consumer and limited edition clothing. I founded GST two years ago and now run it with the help of my friend Tyler Greene. More information about GST can be found on the website linked below.</p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="http://grandstreet.io">Grand Street</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Chromebook Database</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/database.png" alt="">
+                  <p>My schools's 1200 Chromebooks are managed in an online web2py database. This database records every transaction and all the history of every Chromebook in the school. I currently work to maintain and make updates to this database.</p>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Giveaway Bot</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/giveaway.jpg" alt="">
+                  <p>On Twitter, many people host giveaways whereby they push out a tweet saying something to the effect of "I am giving away __ All you need to do to enter is retweet this tweet!". There are thousands of such giveaways, and its impossible to enter them all on your own. This Java app I made finds all those giveaway tweets and uses them and a bit of user-provided info to enter into the giveaways for you.</p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://github.com/owenkealey/Giveaway-Bot">Source Code</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>SPP New Tab Extension</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/extension.png" alt="">
+                  <p>My school issues a Chromebooks to every student and as a school we use some important sites such as Powerschool, Schoology, Gmail etc that can be hard to manage by bookmarks or such especially for incoming freshmen. Thus, I made a Chrome Extension that overrides the chrome://newtab page to feature some Prep-specific sites, a nice layout and personalized content(such as a link to the student's personal schedule etc).</p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://github.com/owenkealey/SPP-Extension">Source Code</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Grand Street Monitors</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/monitors.png" alt="">
+                  <p>Grand Street Monitors, another project I develop under Grand Street Technologies, is a service that allows sneaker groups to get the notifications for the latest restocks and new items sent to their discord server in the form of a webhook.
+                  </p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://shop.grandstreet.io">Grand Street Monitors @ Grand Street Shop</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+    <script src="js/redirect.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-  <script src="../js/js.js" type="text/javascript"></script>
+
 </html>
