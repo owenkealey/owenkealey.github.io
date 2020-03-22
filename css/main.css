@@ -131,6 +131,9 @@ body{
     color: black;
     font-size: 12px;
     font-family: 'Roboto Mono', monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media only screen and (max-width: 727px) {
     .portfolio_grid {
@@ -143,4 +146,56 @@ body{
 
 .portfolio_picture{
     width: 100px;
+}
+
+.resume_button{
+    font-family: 'Roboto Mono', monospace;
+    width: 140px;
+    height: 60px;
+    border: 2px solid #ffef29;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume_button:hover{
+    color: black;
+    background-color: #ffef29;
+}
+
+#portfolio{
+    height: 400px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #portfolio{
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 727px) {
+    #portfolio{
+        height: 1100px;
+    }
+}
+
+.section_social_media{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    padding: 10px;
+    grid-row-gap: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+.social_media{
+    cursor: pointer;
+}
+
+.social_media_icon{
+    width: 50px;
 }

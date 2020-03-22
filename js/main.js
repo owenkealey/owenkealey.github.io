@@ -106,3 +106,15 @@ scranton.onmouseleave = function(){
 scranton.onclick = function(){
     location.href = "https://owenkealey.io/img/scrantonapp.jpg";
 }
+
+document.getElementById("github").onclick = function(){
+    location.href = "https://github.com/owenkealey";
+}
+
+document.getElementById("twitter").onclick = function(){
+    location.href = "https://twitter.com/iamtheaio";
+}
+
+document.getElementById("insta").onclick = function(){
+    location.href = "https://instagram.com/owenkealey";
+}
