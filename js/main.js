@@ -112,7 +112,7 @@ document.getElementById("github").onclick = function(){
 }
 
 document.getElementById("twitter").onclick = function(){
-    location.href = "https://twitter.com/iamtheaio";
+    location.href = "https://www.linkedin.com/in/owen-kealey-820a5715a/";
 }
 
 document.getElementById("insta").onclick = function(){
