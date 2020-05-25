@@ -107,6 +107,24 @@ scranton.onclick = function(){
     location.href = "https://owenkealey.io/img/scrantonapp.jpg";
 }
 
+var swiftsole = document.getElementById("swiftsole");
+var swiftsoleImg = document.getElementById("swiftsole_image");
+var swiftsoleText = document.getElementById("swiftsole_text");
+
+swiftsole.onmouseover = function(){
+    swiftsoleImg.style.display = "none";
+    swiftsole.style.backgroundColor = "#ffef29";
+    swiftsoleText.style.display = "block";
+}
+swiftsole.onmouseleave = function(){
+    swiftsoleText.style.display = "none";
+    swiftsole.style.backgroundColor = "transparent";
+    swiftsoleImg.style.display = "inline";
+}
+swiftsole.onclick = function(){
+    location.href = "https://twitter.com/swiftsoleios";
+}
+
 document.getElementById("github").onclick = function(){
     location.href = "https://github.com/owenkealey";
 }
