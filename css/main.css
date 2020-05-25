@@ -167,18 +167,18 @@ body{
 }
 
 #portfolio{
-    height: 400px;
+    height: 600px;
 }
 
 @media only screen and (max-width: 1000px) {
     #portfolio{
-        height: 600px;
+        height: 800px;
     }
 }
 
 @media only screen and (max-width: 727px) {
     #portfolio{
-        height: 1100px;
+        height: 1300px;
     }
 }
 
