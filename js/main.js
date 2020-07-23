@@ -122,7 +122,7 @@ swiftsole.onmouseleave = function(){
     swiftsoleImg.style.display = "inline";
 }
 swiftsole.onclick = function(){
-    location.href = "https://twitter.com/swiftsoleios";
+    location.href = "https://swiftsole.app";
 }
 
 document.getElementById("github").onclick = function(){
